@@ -1,0 +1,224 @@
+body{
+    margin: 0px;
+}
+.head{
+    background-color: rgb(255, 166, 0);
+    height:50px; 
+    top:0px;
+    display: flex;
+    align-items: center;
+}
+.college{
+    color:white;
+    font-size: 23px;
+    padding-left: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.fa-search{
+     color: white;
+     font-size: 22px;
+}
+.search{
+     padding-left: 550px;
+     padding-right: 40px;
+     display: flex;
+     align-items:center;
+}
+.search-input{
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    padding-left: 8px;
+    margin-right:0px;
+}
+.logo{
+    height: 100px;
+    padding-left: 200px;
+}
+.ird-head{
+    padding-left: 100px;
+    font-size: 37px;
+    font-weight: 600;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ird{
+    height: 110px;
+    border-bottom: 0.5px solid rgb(222, 216, 216);
+    display: flex;
+    align-items: center;
+}
+.menu{
+    position: fixed;
+    top:80px;
+    right:40px;
+    z-index: 10;
+    cursor: pointer;
+    width: 30px;
+  height: 30px;
+  background: none;
+  border: none;
+  }
+  .ham{
+  position:absolute;
+  width:25px;
+  height: 3px;
+  background-color:black;
+  transition: all 1s;
+  transform: translateX(-10px);
+  }
+  .ham.middle-span{
+    transform: translateY(5px) translateX(-10px);
+    
+  }
+  .ham.bottom{
+    transform: translateY(10px)  translateX(-10px);
+  }
+  .left{
+    width:350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  .middle{
+    width:800px;
+    border-left: 0.25px solid rgb(218, 210, 210);
+    border-right: 0.25px solid rgb(218, 210, 210);
+    height: 1500px;
+  }
+  .right{
+    width:350px;
+  }
+  .area{
+    display:flex;
+    flex-direction: row;
+    height: 600px;
+  }
+  .middle-head{
+    color:gray;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+.btn-group{
+    width: 750px;
+    padding-left: 20px;
+    color: white;
+}
+.dean-photo{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.dean{
+    display: inline-flex;
+    align-items: center;
+}
+.dean-info{
+    /* display: inline-flex; */
+    flex-direction: column;
+    width: 250px;
+    margin-top: 0px;
+    padding-top: 0px;
+    top: 0px;
+    align-items:baseline;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: black;
+}
+.activities{
+    height: 300px;
+    width: 400px;
+    margin-left: 30px;
+}
+
+.points1{
+    color: red;
+    text-decoration:none;
+    width: 200px;
+    font-size: 14px;
+    margin-left: 30px;
+}
+.btn{
+    width: 230px;
+}
+
+#carouselExample{
+    width: 600px;
+    height: 300px ;
+ display: flex;
+ justify-self: center;
+ align-items: center;
+ margin-top: 100px;
+ margin-left: 100px;
+ /* border-left: 0.25px solid rgb(218, 210, 210);
+ border-right: 0.25px solid rgb(218, 210, 210); */
+}
+
+.foot{
+    position: relative;
+    color:black;
+    background-color: whitesmoke;
+    border-top: 0.25px solid rgb(218, 210, 210);
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 700px;
+    height:350px;
+  }
+
+  .btn-social{
+    color: black;
+    border: 1px solid black;
+    width: 150px;
+    margin-left: 20px;
+  }
+  .btn-social:hover{
+    background-color: black;
+    color: white;
+  }
+.quickLink{
+    display: flex;
+    flex-direction: column;
+}
+.info-search{
+ margin-left: 100px;
+ display: flex;
+ align-self: center;
+}
+.toast{
+ color: black;
+}
+.btn-notify{
+    background-color: rgb(255, 166, 0);
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    color: rgb(3, 3, 3);
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+.list-group{
+    width: 320px;
+    margin-left: 15px;
+    height: 400px;
+}
+.hovering{
+ background-color: rgb(255, 166, 0);
+ color: black;
+}
+.news{
+    border-bottom: 0.25px solid rgb(222, 216, 216);
+}
